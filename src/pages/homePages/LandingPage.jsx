@@ -7,10 +7,9 @@ export default function LandingPage() {
   
   return (
     <div className='overflow-x-hidden'>
+        <MyProfile /> 
         <Landing1 />
-        <MyProfile /> 
-        <Education />
-        <MyProfile /> 
+        {/* <Education /> */}
     </div>
   )
 }
