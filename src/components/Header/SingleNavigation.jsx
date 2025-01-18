@@ -14,7 +14,7 @@ export default function SingleNavigation({ isMobile }) {
         <>
             {isMobile
                 ? <nav className='w-full fixed top-0 right-0 z-50 bg-white shadow-lg p-4 h-[4rem]'>
-                    <ul className='flex justify-center gap-8 text-xl font-bold '>
+                    <ul className='flex justify-center gap-8 text-lg font-bold '>
                         <li className={`${hover}`}><a href="#profile" onClick={(e) => scrollToSection(e, 'profile')}>Profile</a></li>
                         <li className={`${hover}`}><a href="#projects" onClick={(e) => scrollToSection(e, 'projects')}>Projects</a></li>
                         <li className={`${hover}`}><a href="#ending" onClick={(e) => scrollToSection(e, 'ending')}>Contact</a></li>

@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import CopyText from '../universal/CopyText';
+import ScrollRight from '../universal/Icon';
 
 export default function ProjectTop({ isMobile }) {
     const scrollContainerRef = useRef(null);
@@ -35,13 +36,15 @@ export default function ProjectTop({ isMobile }) {
 
     return (
         <>
-            <div className='text-center text-3xl font-extrabold my-7'>
-                <h1>My funny personal project ~</h1>
-                <div className='text-lg font-light underline text-blue-800'><CopyText text={'https://toprosgallery.site/'}/></div>
-                </div>
+
             {isMobile
                 ?
-                <div className="w-full overflow-hidden ">
+                <div className="w-full overflow-hidden flex flex-col items-center justify-center">
+                    <div className='text-center text-xl font-extrabold my-7'>
+                        <h1>My funny personal project ~</h1>
+                        <div className=' text-sm font-light underline text-blue-800'><CopyText text={'https://toprosgallery.site/'} /></div>
+                    </div>
+                    <div className='flex font-light gap-2 opacity-50'><p>swipe to see </p> <ScrollRight width={'14'} /></div>
                     <div
                         ref={scrollContainerRef}
                         className="relative w-full h-full overflow-x-auto hide-scrollbar"
@@ -88,6 +91,10 @@ export default function ProjectTop({ isMobile }) {
                     </div>
                 </div>
                 : <div className="w-full overflow-hidden h-screen">
+                    <div className='text-center text-3xl font-extrabold my-10'>
+                        <h1>My funny personal project ~</h1>
+                        <div className='text-lg font-light underline text-blue-800'><CopyText text={'https://toprosgallery.site/'} /></div>
+                    </div>
                     <div
                         ref={scrollContainerRef}
                         className="relative w-full h-full overflow-x-auto hide-scrollbar"

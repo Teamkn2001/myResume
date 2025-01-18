@@ -17,9 +17,9 @@ export default function Ending({ isMobile }) {
                     </div>
                     <div className='absolute z-50 top-1/3 -translate-y-1/2 left-1/2 -translate-x-1/2 text-white flex flex-col items-center '>
                         <div className='text-sm'>Hello, world !</div>
-                        <div className='text-lg font-bold '><CopyText text="Sudtipong.fullstack@gmail.com" /></div>
-                        <div className='text-lg font-bold '><CopyText text="https://github.com/Teamkn2001" /></div>
-                        <div className='text-lg font-bold'>lineId :  <CopyText text="Xzia1412" /></div>
+                        <div className='font-bold '><CopyText text="Sudtipong.fullstack@gmail.com" /></div>
+                        <div className='font-bold '><CopyText text="https://github.com/Teamkn2001" /></div>
+                        <div className='font-bold'>lineId :  <CopyText text="Xzia1412" /></div>
                     </div>
                 </div>
                 : <div className='relative bg-red-400 '>

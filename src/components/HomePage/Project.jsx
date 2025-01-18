@@ -6,7 +6,7 @@ export default function Project({ isMobile }) {
             {isMobile
                 ? <div className='flex flex-col items-center justify-center gap-4 my-7'>
                     <div>
-                        <p className='text-xl'>Buggy Jotify Note-app mock</p>
+                        <p className='text-lg'>Buggy Jotify Note-app mock</p>
                     </div>
                     <div className='flex justify-center items-center'>
                         <video

@@ -57,7 +57,7 @@ export default function MyProfile({ isMobile }) {
                                 {[...Array(2)].map((_, i) => (
                                     <div key={i} className='flex gap-3'>
                                         {techs.map((tech) => (
-                                            <TechCard key={tech.name} logo={tech.logo} name={tech.name} w={'w-[8rem]'} />
+                                            <TechCard key={tech.name} logo={tech.logo} name={tech.name} w={'w-[7rem]'} />
                                         ))}
                                     </div>)
                                 )
