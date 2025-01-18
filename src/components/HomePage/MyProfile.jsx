@@ -94,7 +94,7 @@ export default function MyProfile({ isMobile }) {
 
                             <div className='w-full flex flex-col justify-center items-center p-7 gap-5'>
                                 <h1 className='font-bold text-2xl'>Rangsit University</h1>
-                                <p>"With a background in Logistics and Supply Chain Management, I bring a unique perspective to problem-solving and project execution. My studies have equipped me with a understanding of optimizing processes, managing resources efficiently, and ensuring seamless coordination across complex systems.</p>
+                                <p>"With a background in Logistics and Supply Chain Management, I bring a unique perspective to problem-solving and project execution. My studies have equipped me with an understanding of optimizing processes, managing resources efficiently, and ensuring seamless coordination across complex systems.</p>
                                 <p>This foundation complements my skills as a full-stack developer, allowing me to approach challenges with a balance of technical expertise and operational insight. I thrive on finding innovative solutions that bridge the gap between technology and real-world logistics."</p>
                                 <p></p>
                             </div>
@@ -104,7 +104,7 @@ export default function MyProfile({ isMobile }) {
                 : <div className='flex flex-col items-center gap-7 mt-[4rem]'>
                     <div className='flex justify-around h-[20rem] mx-[10%] mt-7'>
                         <div className='flex-1 flex flex-col bg-red-600 justify-center items-center text-center hover:transform hover:scale-105 hover:bg-red-500 duration-500'>
-                            <img src="https://res.cloudinary.com/djudr1vzc/image/upload/v1734608778/cutp-Photoroom_j8e6u3.png" alt="my profile" width={258} />
+                            <img src="https://res.cloudinary.com/djudr1vzc/image/upload/v1737211592/crop_thumb-noBg_hrmt7u.png" alt="my profile" width={266} />
                         </div>
                         <div className='flex-1 flex flex-col justify-center px-7 bg-red-200'>
                             <p>Hi, I'm Team Sudtipong, a passionate and versatile full-stack developer. I specialize in building !responsive, user-friendly interfaces with React.js on the front end and creating robust, scalable server-side solutions using Node.js on the back end.</p>
@@ -156,7 +156,7 @@ export default function MyProfile({ isMobile }) {
 
                             <div className='w-1/2 flex flex-col justify-center items-center p-7 gap-5'>
                                 <h1 className='font-bold text-2xl'>Rangsit University</h1>
-                                <p>"With a background in Logistics and Supply Chain Management, I bring a unique perspective to problem-solving and project execution. My studies have equipped me with a understanding of optimizing processes, managing resources efficiently, and ensuring seamless coordination across complex systems.</p>
+                                <p>"With a background in Logistics and Supply Chain Management, I bring a unique perspective to problem-solving and project execution. My studies have equipped me with an understanding of optimizing processes, managing resources efficiently, and ensuring seamless coordination across complex systems.</p>
                                 <p>This foundation complements my skills as a full-stack developer, allowing me to approach challenges with a balance of technical expertise and operational insight. I thrive on finding innovative solutions that bridge the gap between technology and real-world logistics."</p>
                                 <p></p>
                             </div>
