@@ -1,15 +1,22 @@
 import React from 'react'
-import Landing1 from '../../components/HomePage/Landing1'
 import MyProfile from '../../components/HomePage/MyProfile'
-import Education from '../../components/HomePage/Education'
+import Project from '../../components/HomePage/Project'
+import Ending from '../../components/HomePage/Ending'
+import SingleNavigation from '../../components/Header/SingleNavigation'
+import { breakpoints, useMediaQuery } from '../../hooks/useMediaQuery'
+import ProjectTop from '../../components/HomePage/ProjectTop'
 
 export default function LandingPage() {
-  
+  const isMobile = useMediaQuery(breakpoints.mobile)
+
   return (
     <div className='overflow-x-hidden'>
-        <MyProfile /> 
-        <Landing1 />
-        {/* <Education /> */}
+      <SingleNavigation isMobile={isMobile}/>
+      <div></div>
+      <div id="profile"><MyProfile isMobile={isMobile}/></div>
+      <div id="projects"><ProjectTop isMobile={isMobile}/></div>
+      <div id="projects2"><Project isMobile={isMobile}/></div>
+      <div id="ending"><Ending isMobile={isMobile}/></div>
     </div>
   )
 }
