@@ -17,7 +17,7 @@ export default function Project2({ isMobile }) {
                 </div>
                 : <div className='min-h-[35rem] flex flex-col items-center justify-center gap-8 mt-8'>
                     <div>
-                        <h1 className='text-2xl font-semibold'>Buggy Jotify Note-app mock</h1>
+                        <h1 className='text-2xl text-center font-semibold'>Skyteam</h1>
                        <div className=' text-sm font-light underline text-blue-800'> <CopyText text={"https://slyteam-client-v2.onrender.com/"} /></div>
                     </div>
                     <div className='flex flex-col items-center justify-center gap-4'>
