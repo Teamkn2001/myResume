@@ -1,5 +1,5 @@
 import React from 'react'
-import certificates from '../../assets/certificates/CS50x.png'
+import certificates from '../../assets/Certificates/CS50x.png'
 import CopyText from '../universal/CopyText'
 
 export default function Certificates({ isMobile }) {
