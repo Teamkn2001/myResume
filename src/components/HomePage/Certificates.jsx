@@ -9,7 +9,7 @@ export default function Certificates({ isMobile }) {
                 ?
                 <div className="w-full overflow-hidden flex flex-col items-center justify-center px-4 ">
                     <h1 className='font-bold text-xl'>CS50's Introduction to Computer Science</h1>
-                    <div className=' text-sm font-light underline text-blue-800 mt-2 mx-8'> <CopyText text={"https://cs50.harvard.edu/certificates/2a917775-1010-4087-96ae-b3349e33e798"} /></div>
+                    <div className=' text-sm font-light underline text-blue-800 mt-2 px-4'> <CopyText text={"https://cs50.harvard.edu/certificates/2a917775-1010-4087-96ae-b3349e33e798"} /></div>
                     <img src={certificates} alt="cs50 certificate" className="w-[22rem] h-auto max-w-3xl mt-3" />
                     <p className='p-7'>"CS50 is Harvard’s introduction to computer science where I learned interesting concepts about computer programming, explored the basics of C, HTML, CSS, JavaScript, Python (using Flask), and SQL, and solved fun and challenging problems that built my understanding and skills." </p>
                 </div>
