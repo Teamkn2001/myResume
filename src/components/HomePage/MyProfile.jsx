@@ -15,6 +15,8 @@ import ZustandLogo from '/src/assets/zustandLogo.jpg'
 import PostmanLogo from '/src/assets/postmanLogo.png'
 import TechCard from './TechCard'
 import CssLogo from '/src/assets/CssLogo.png'
+import PythonLogo from '/src/assets/pythonLogo.png'
+import TypeScriptLogo from '/src/assets/typescriptLogo.png'
 
 export default function MyProfile({ isMobile }) {
 
@@ -23,6 +25,8 @@ export default function MyProfile({ isMobile }) {
         { name: 'HTML', logo: HTML },
         { name: 'Css', logo: CssLogo },
         { name: 'Javascript', logo: JSLogo },
+        { name: 'python', logo: PythonLogo },
+        { name: 'Typescript', logo: TypeScriptLogo },
         { name: 'NodeJS', logo: NodeLogo },
         { name: 'ReactJS', logo: ReactJSLogo },
         { name: 'Git', logo: GitLogo },
